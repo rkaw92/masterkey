@@ -1,0 +1,18 @@
+{
+  "name": "masterkey",
+  "version": "0.1.0",
+  "description": "a stand-alone authentication service using JSON Web Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Robert Kawecki <robert+npm@rkaw.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "1.0.x",
+    "ioredis": "2.5.x",
+    "jsonwebtoken": "7.1.x",
+    "uuid": "3.0.x",
+    "when": "3.7.x"
+  }
+}
